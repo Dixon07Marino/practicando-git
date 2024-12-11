@@ -34,6 +34,14 @@ body {
     margin-left: 40px;
     display: inline;
     font-size: 1.3em;
+    transition: 0.7s;
+}
+
+.nav-barra li:hover {
+    border: none;
+    background-color: rgb(190, 190, 190);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .nav-barra a {
@@ -117,6 +125,10 @@ figure {
     color: #8071d2;
 }
 
+figure img {
+    transition: 0.8s;
+}
+
 figure img:hover {
     filter: drop-shadow(0 0 100px #817dff);
     width: 100px;
@@ -188,6 +200,7 @@ footer {
     cursor: pointer;
     width: 50px;
     filter: drop-shadow(-3px 3px 2px rgba(211, 195, 255, 0.6));
+    transition: 0.6s;
 }
 
 
@@ -201,6 +214,10 @@ footer {
     color: #fff;
     letter-spacing: 5px;
     margin-top: 20px;
+}
+
+.icons p span {
+    transition: 0.7s;
 }
 
 .icons p span:hover {
