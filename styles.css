@@ -1,0 +1,208 @@
+/*Esto es para hacer un reset y aplicar estilos generales*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*Este es el menu de navegación de la página*/
+
+.nav-barra {
+    background: #000;
+
+}
+
+.nav-barra img {
+    position: absolute;
+    top: -5px;
+    margin: 20px;
+}
+
+.nav-barra .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.nav-barra li {
+    margin-left: 40px;
+    display: inline;
+    font-size: 1.3em;
+}
+
+.nav-barra a {
+    color: rgb(63, 5, 255);
+}
+
+.nav-barra a:hover {
+    color: rgb(61, 17, 205);
+    text-decoration: underline;
+}
+
+/*Esta parte es la info principal de mi persona*/
+
+.info {
+    background: linear-gradient(rgb(63, 5, 255), #0b052e);
+    height: 350px;
+}
+
+.info img {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 100%;
+    margin: 30px 0 20px 0;
+}
+
+.info {
+    text-align: center;
+    color: #070512;
+}
+
+.info h1 span {
+    color: #5047a0;
+}
+
+.info p {
+    line-height: 30px;
+    color: #8071d2;
+}
+
+/*Esto da un fondo a un elemento, agregando otro fondo pero haciendolo más opaco*/
+
+.fondo {
+    width: 100%;
+    height: 300px;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo .opacidad {
+    width: 100%;
+    height: 300px;
+    background-color: #000a;
+}
+
+main {
+    height: 400px;
+    background: linear-gradient(#000 20%, rgb(63, 5, 255));
+}
+
+/*Esta parte es la de las tecnologias*/
+
+.container-2 h2 {
+    padding-top: 50px;
+    color: rgb(63, 5, 255);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.tecnologias .container-2 {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+figure {
+    cursor: pointer;
+    margin: 60px 30px;
+    display: inline-block;
+    color: #8071d2;
+}
+
+figure img:hover {
+    filter: drop-shadow(0 0 100px #817dff);
+    width: 100px;
+}
+
+/*Este es el formulario donde el usuario coloc datos de contacto*/
+
+.formulario {
+    background: rgb(63, 5, 255);
+    height: 600px;
+    padding-top: 40px;
+}
+
+.formulario form {
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #b2b2ff;
+    box-shadow: 0 0 50px 1px #0009;
+}
+
+.formulario input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 50px 20px #0005;
+}
+
+.formulario input:last-child {
+    background-color: #3728da;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+}
+
+.formulario input:hover:last-child {
+    background-color: #4939ff;
+    border: none;
+}
+
+
+.formulario textarea {
+    min-height: 150px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+/*Esta es la parte inferior de la página*/
+
+footer {
+    height: 200px;
+    padding-top: 100px;
+    background: rgb(0, 0, 0);
+}
+
+.icons {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.icons img {
+    cursor: pointer;
+    width: 50px;
+    filter: drop-shadow(-3px 3px 2px rgba(211, 195, 255, 0.6));
+}
+
+
+.icons img:hover {
+    filter: drop-shadow(-3px 3px 2px #3728da);
+}
+
+.icons p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.icons p span:hover {
+    color: #3728da;
+}
